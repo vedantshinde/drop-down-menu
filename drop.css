@@ -1,13 +1,19 @@
+
+body{
+  background-color: blue;
+}
 .menu{
+  margin:0 auto;
+  width: 40rem;
   background: #F7F6F5;
   border-top:1px solid #CFCFCF;
   }
-.menu__item{
+.menu__main__item{
   display: inline-block;
   padding:0.5rem 2rem;
   border-bottom: 1px solid #CFCFCF;
 }
-.menu__item:hover{
+.menu__main__item:hover{
 
   background:white;
   margin : 0 -1px;
@@ -16,13 +22,13 @@
   border-bottom: none;
 
 }
-.menu__item--current .menu__item__link{
+.menu__main__item--current .menu__main__item__link{
   color: #333333;
   border-bottom:3px solid black;
-  padding: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
-.menu__item__link{
+.menu__main__item__link{
   text-decoration: none;
   font-family: Roboto;
   font-weight: 800;
@@ -30,7 +36,20 @@
   font-size: 0.9rem;
 }
 
-.menu__item__link:hover{
+.menu__main__item__link:hover{
   text-decoration: underline;
   color: #1C60BB;
+}
+.menu__sub {
+  width: 40rem;
+  height: 10rem;
+  background-color: red;
+}
+.menu__main__item:first-child:hover{
+  border-left: none;
+  margin-left: 0;
+}
+.menu__main__item:last-child:hover{
+  border-right: none;
+  margin-right:0;
 }
