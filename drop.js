@@ -72,6 +72,48 @@ function getCategories(data) {
         'Hats'
       ];
     }
+    if (data.menuItem == 'Electronics') {
+      return [
+        'Cell Phones & Accessories',
+        'Smart Watches',
+        'Video Games & Accessories',
+        'Computers & Tablets',
+        'Digital Cameras & Photos',
+        'Camera Drones',
+        'Deals'
+      ];
+    }
+    if (data.menuItem == 'Health+Beauty') {
+      return [
+        'Makeup',
+        'Healthcare',
+        'Fragrances',
+        'Nailcare, Manicure & Pedicure',
+        'Hair Care & Styling',
+        'Deals'
+      ];
+    }
+    if (data.menuItem == 'Collectibles') {
+      return [
+        'Action Figures',
+        'Coins & Paper Money',
+        'Stamps',
+        'Postcards',
+        'Autographed Memorabilia',
+        'Sports Memorabilia',
+        'Collectibles'
+      ];
+    }
+    if (data.menuItem == 'Sports') {
+      return [
+        'Cycling',
+        'Outdoor Sports',
+        'Hunting',
+        'Fishing',
+        'Fitness, Running & Yoga',
+        'Deals'
+      ];
+    }
     return [
       'Server apple',
       'Server banana',
@@ -95,6 +137,48 @@ function getCategories(data) {
         'Red stuff',
         'Gucci',
         'New Arrivals'
+      ];
+    }
+    if (data.menuItem == 'Electronics') {
+      return [
+        'iPhone',
+        'Samsung',
+        'Portable Audio & Headphones',
+        'TV, Video & Home Audio',
+        'Vehicle Electronics & GPS',
+        'Smart Home'
+      ];
+    }
+    
+    if (data.menuItem == 'Health+Beauty') {
+      return [
+        'Skin Care',
+        'Vitamins & Dietary Supplements',
+        'Shaving & Hair Removal',
+        'Vision Care',
+        'Bath & Body',
+        'Oral Care'
+      ];
+    }
+    if (data.menuItem == 'Collectibles') {
+      return [
+        'Arts',
+        'Antiques',
+        'Pens & Writing Instruments',
+        'TV, Movie & Character Toys',
+        'Autographed Memorabilia',
+        'Toy Vehicles',
+        'Comics'
+      ];
+    }
+    if (data.menuItem == 'Sports') {
+      return [
+        'Tennis',
+        'Swimming',
+        'Water Sports',
+        'Winter Sports',
+        'Team Sports',
+        'Fitness Technology'
       ];
     }
     return [
