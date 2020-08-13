@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: blue;
+  background-color: #ffd571;
   height: 500px;
 }
 .menu{
@@ -22,10 +22,14 @@ body{
     width: 90%;
   }
 .menu__main__item{
-  display: inline-block;
+  display: inline-block;
+
+
   padding:0.5rem 2rem;
   border-bottom: 1px solid var(--border-grey);
-}
+
+
+}
 .menu__main__item--active,
 .menu__main__item:hover{
 
